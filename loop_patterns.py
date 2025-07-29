@@ -10,3 +10,27 @@ for i in range(1, 6):
     for j in range(1, i):
         print("*", end="")
     print()
+
+#square wall pattern
+n=int(input())
+for i in range(n):
+    print("*",end=" ")
+print()
+for i in range(n-2):
+    print("*",end=" ")
+    for j in range(n-2):
+        print(" ",end=" ")
+    print("*")
+for i in range(n):
+    print("*",end=" ")
+
+#downwards triangle
+class Solution:
+    def printPattern(self,n):
+        for i in range(n):
+            for j in range(n-i):
+                print("*",end=" ")
+            print()
+
+obj=Solution()
+obj.printPattern(n=int(input()))
