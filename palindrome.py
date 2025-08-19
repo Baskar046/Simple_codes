@@ -12,3 +12,13 @@ if palindrome_check(vanakkam):
     print("it's palindrome")
 else:
     print("it's not a palindrome")
+
+
+#checking the palindrome case
+def isPalindrome(s):
+    s=s.lower()
+    if s[::-1]==s :
+        return "True"
+    else:
+        return "False"
+isPalindrome("ram")
