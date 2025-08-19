@@ -42,3 +42,14 @@ for i in range(n,0,-1):
         print(j,end=" ")
     print()
 
+#triangle pattern
+n = 9
+
+for i in range(n):
+    for j in range(n):
+        # Print "*" only for the first column, or when row and column are same (diagonal), or for the last row
+        if j == 0 or i == j or i == n - 1:
+            print("*", end=" ")
+        else:
+            print(" ", end=" ")
+    print()
