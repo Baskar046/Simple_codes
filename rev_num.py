@@ -1,3 +1,7 @@
+#simple method
+rev=int(str(n)[::-1])
+print(rev)
+
 #using while loop
 n=int(input("enter the number:"))
 count=1
