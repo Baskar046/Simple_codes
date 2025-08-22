@@ -22,3 +22,16 @@ def rev_str(n):
     return rev_str(n[1:]) +n[0]
 print(rev_str("hello world"))
 
+"""
+reverse_string("abc")
+
+→ calls reverse_string("bc") + "a"
+
+→ which calls reverse_string("c") + "b" + "a"
+
+→ which calls reverse_string("") + "c" + "b" + "a"
+
+→ base case: returns ""
+
+→ then returns "c" → "cb" → "cba" step by step
+"""
