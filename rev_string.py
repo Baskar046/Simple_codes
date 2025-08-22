@@ -1,3 +1,7 @@
+#reverse string using join operation
+n="hello"
+print(''.join(reversed(n)))
+
 #reverse string using indexing
 s="hello"
 print(s[::-1])
