@@ -13,3 +13,9 @@ print(cal(4))
 lst=[1,2,3,4,5]
 square_num=list(map(lambda lst:lst**2,lst)) 
 print(square_num)
+
+check = lambda num:"even" if num%2 ==0 else "odd"
+print(check(int(input())))
+
+ch = lambda num :"odd" if num%3==0 else "even"
+print(ch(3))
