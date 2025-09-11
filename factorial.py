@@ -18,6 +18,19 @@ else:
     ans = factorial(5)
     print(ans)
 
+class check:
+    def __init__(self,a):
+        self.num=a
+
+    def fact(self):
+        sum=1
+        for i in range(1,self.num+1):
+            sum*=i
+        print(sum)
+
+obj=check(5)
+obj.fact()
+
 #finding factorial number using import method
 import math         #default module
 print(math.factorial(5))
